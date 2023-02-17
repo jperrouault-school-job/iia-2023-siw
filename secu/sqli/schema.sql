@@ -1,0 +1,25 @@
+CREATE DATABASE sqli;
+
+USE sqli;
+
+CREATE TABLE user(
+    usr_id INT AUTO_INCREMENT PRIMARY KEY,
+    usr_name VARCHAR(50) NOT NULL,
+    usr_password VARCHAR(200) NOT NULL
+);
+
+CREATE TABLE produit(
+    pro_id INT AUTO_INCREMENT PRIMARY KEY,
+    pro_name VARCHAR(50) NOT NULL,
+    pro_price DECIMAL(10, 2) NOT NULL DEFAULT 0
+);
+
+
+CREATE DATABASE compta;
+
+USE compta;
+
+CREATE TABLE compte(
+    cpt_id INT AUTO_INCREMENT PRIMARY KEY,
+    cpt_numero VARCHAR(50) NOT NULL
+);
