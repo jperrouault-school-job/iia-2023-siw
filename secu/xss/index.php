@@ -16,10 +16,10 @@
     ?>    
 
     <form method="POST">
-        <input type="text" name="username" />
+        <input type="text" name="username" value="<?= $username ?>" />
         <input type="submit" value="OK" />
     </form>
 
-    <h1>Bonjour <?= $username ?></h1>
+    
 </body>
 </html>
