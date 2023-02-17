@@ -1,0 +1,9 @@
+Pour sortir de la value input
+">
+
+On peut masquer la fin du contenu HTML
+<input type="hidden
+" />
+
+Et avoir un payload de ce type
+"><script>alert('ok')</script><input type="hidden

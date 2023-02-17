@@ -13,13 +13,11 @@
     if (isset($_POST['username'])) {
         $username = $_POST['username'];
     }
-    ?>    
+    ?>
 
     <form method="POST">
         <input type="text" name="username" value="<?= $username ?>" />
         <input type="submit" value="OK" />
     </form>
-
-    
 </body>
 </html>
